@@ -86,8 +86,8 @@ class SoapClient extends \SoapClient
     /**
      * Constructor.
      *
-     * @param string               $wsdl    WSDL file
-     * @param array(string=>mixed) $options Options array
+     * @param string  $wsdl    WSDL file
+     * @param array   $options Options array(string=>mixed)
      */
     public function __construct($wsdl, array $options = array())
     {
@@ -354,8 +354,8 @@ class SoapClient extends \SoapClient
      * ini settings. Does only file caching as SoapClient only supports a file
      * name parameter.
      *
-     * @param string               $wsdl    WSDL file
-     * @param array(string=>mixed) $options Options array
+     * @param string  $wsdl    WSDL file
+     * @param array   $options Options array(string=>mixed)
      *
      * @return string
      */

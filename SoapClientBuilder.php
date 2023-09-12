@@ -205,7 +205,7 @@ class SoapClientBuilder extends AbstractSoapBuilder
     /**
     * SOAP attachment type Base64.
     *
-    * @return \BeSimple\SoapServer\SoapServerBuilder
+    * @return self
     */
     public function withBase64Attachments()
     {
@@ -217,7 +217,7 @@ class SoapClientBuilder extends AbstractSoapBuilder
     /**
      * SOAP attachment type SwA.
      *
-     * @return \BeSimple\SoapServer\SoapServerBuilder
+     * @return self
      */
     public function withSwaAttachments()
     {
@@ -229,7 +229,7 @@ class SoapClientBuilder extends AbstractSoapBuilder
     /**
      * SOAP attachment type MTOM.
      *
-     * @return \BeSimple\SoapServer\SoapServerBuilder
+     * @return self
      */
     public function withMtomAttachments()
     {

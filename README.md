@@ -14,7 +14,7 @@ The BeSimpleSoapClient is a component that extends the native PHP SoapClient wit
 If you do not yet have composer, install it like this:
 
 ```sh
-curl -s http://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin
+curl -s https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin
 ```
 
 Create a `composer.json` file:
